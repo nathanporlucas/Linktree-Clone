@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(165, 158, 158);
+    background-image: url(https://i.pinimg.com/474x/0f/e8/af/0fe8afd92bc5440f63f8bc0809faac8f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.title-container {
+    text-align: center;
+    color: rgb(239, 232, 232);
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(239, 232, 232);
+}
+
+.btn:hover {
+    background: transparent;
+    border: 1px solid;
+}
+
+.btn {
+    background-color: rgb(146, 138, 138);
+    color: rgb(239, 232, 232);
+    flex: 1;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    padding: 18px;
+    margin-bottom: 20px;
+}
+
+.contactme {
+    color: rgb(239, 232, 232);
+    text-align: center;
+    font-weight: bold;
+}
+
+.email {
+    color: rgb(239, 232, 232);
+    text-align: center;
+}
